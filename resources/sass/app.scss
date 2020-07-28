@@ -1,0 +1,65 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.parallax {
+    /* The image used */
+    background-image: url("/assets/img/sky.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.minus-mt-1{
+margin-top: -1rem;
+}
+
+.minus-mt-2{
+margin-top: -2rem;
+}
+
+.minus-mt-3{
+margin-top: -3rem;
+}
+
+.minus-mt-4{
+margin-top: -4rem;
+}
+
+.minus-mt-5{
+margin-top: -5rem;
+}
+
+@font-face{
+  font-family: "blafont";
+  src: url("assets/fonts/Notable-Regular.ttf");
+}
+
+@font-face{
+  font-family: "Roboto";
+  src: url("assets/fonts/Roboto-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+.blafont{
+  font-family: "blafont";
+}
+
+
+.font-roboto{
+  font-family: "Roboto";
+}
+
